@@ -10,6 +10,6 @@ if [ $(( $n % 2 )) -eq 0 ];then
 else
 	echo "$n is odd number"
 	fi
-n=$((i+1))
+i=$((i+1))
 done
 
